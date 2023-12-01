@@ -10,6 +10,7 @@ public class Assignment1 {
     System.out.println("Enter how much you spent on groceries"); 
     Double amountSpent = obj.nextDouble();
 
+    //if/else statement to print coupon value, if any, based on the amountspent
     if (amountSpent < 10) {
         System.out.println("You have no coupon");
     }
