@@ -6,7 +6,7 @@ public class Assignment1 {
 
     Scanner obj = new Scanner(System.in);
     
-    //Enter how much you spent on groceries
+    //Enter how much you spent on groceries and save that as the variable amountSpent
     System.out.println("Enter how much you spent on groceries"); 
     Double amountSpent = obj.nextDouble();
 
